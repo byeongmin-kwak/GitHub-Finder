@@ -1,0 +1,132 @@
+a {
+  text-decoration: none;
+}
+
+/* header */
+#myForm {
+  text-align: center;
+}
+
+.form-group {
+  position: relative;
+}
+
+#search {
+  width: 50%;
+  height: 50px;
+  text-align: left;
+  display: inline-block; 
+}
+
+#button {
+  position: absolute;
+  display: block;
+  z-index: 100;
+  right: 26%;
+  bottom: 12%;
+}
+
+/* body */
+#result {
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+#main-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+#left {
+  width: 35%;
+}
+
+#profile-img {
+  width: 70%;
+  margin: 15px;
+  border-radius: 5px;
+  display: block;
+}
+
+#profile-button {
+  margin: 15px;
+}
+
+#View-Profile {
+  text-decoration: none;
+  color: white;
+}
+
+#right {
+  width: 65%;
+  position: relative;
+}
+
+#name {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  margin: 15px;
+  display: inline;
+  font-size: 20px;
+}
+
+#Since {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  margin: 15px;
+  display: inline;
+  color: gray;
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 15px;
+  padding: 3px;
+  position: absolute;
+  bottom: 5%;
+}
+
+#info p {
+  text-align: center;
+}
+
+
+
+
+#chart {
+  margin: 15px;
+}
+
+#chart img {
+  width: 100%;
+}
+
+#repos-info {
+  margin: 15px;
+}
+
+#repos-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#repos-list div {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: 0;
+  padding: 10px;
+  position: relative;
+}
+
+#language {
+  position: absolute;
+  right: 5%;
+}
